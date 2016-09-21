@@ -49,6 +49,15 @@ add_message_files(
   WorldBall.msg
   WorldRobot.msg
   RobotCommand.msg
+  DetectionBall.msg
+  DetectionRobot.msg
+  DetectionFrame.msg
+  FieldCicularArc.msg
+  FieldLineSegment.msg
+  GeometryData.msg
+  GeometryFieldSize.msg
+  GeometryCameraCalibration.msg
+  RefboxCmd.msg
 )
 
 ## Generate services in the 'srv' folder
