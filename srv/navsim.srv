@@ -1,0 +1,10 @@
+#Nav Request
+Point start
+Point goal
+Point goalSpeed 		# Ignored for now. (X-velocity, Y-velocity) in m/s
+float64 goalOrientation 	# Ignored for now. In radians.
+Hint[] hints
+---
+#Nav Response
+Point[] path
+int8 flags
