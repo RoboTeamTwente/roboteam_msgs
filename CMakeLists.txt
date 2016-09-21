@@ -6,7 +6,6 @@ project(roboteam_msgs)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   message_generation
-  message_runtime
   std_msgs
 )
 
@@ -43,27 +42,19 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * uncomment the generate_messages entry below
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
-## Get all messages.
-file(GLOB roboteam_msgs_MSG
-    "msg/*.msg"
-)
-
-## Get all services.
-file(GLOB roboteam_msgs_SRV
-    "msg/*.msg"
-)
-
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  roboteam_msgs_MSG
+  World.msg
+  WorldBall.msg
+  WorldRobot.msg
 )
 
 ## Generate services in the 'srv' folder
-add_service_files(
-  FILES
-  roboteam_msgs_SRV
-)
+# add_service_files(
+#   FILES
+#  
+# )
 
 ## Generate actions in the 'action' folder
 # add_action_files(
