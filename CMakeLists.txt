@@ -48,6 +48,7 @@ add_message_files(
   World.msg
   WorldBall.msg
   WorldRobot.msg
+  RobotCommand.msg
 )
 
 ## Generate services in the 'srv' folder
