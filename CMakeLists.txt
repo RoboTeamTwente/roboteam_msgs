@@ -47,6 +47,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
+  Vector2f.msg
   World.msg
   WorldBall.msg
   WorldRobot.msg
@@ -67,7 +68,7 @@ add_message_files(
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
-  navsim.srv 
+  navsim.srv
 )
 
 ## Generate actions in the 'action' folder

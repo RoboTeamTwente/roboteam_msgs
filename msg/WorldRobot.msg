@@ -1,7 +1,5 @@
 uint32 id
-float32 x
-float32 y
+Vector2f pos
 float32 w
-float32 x_vel
-float32 y_vel
+Vector2f vel
 float32 w_vel

@@ -1,8 +1,6 @@
 float32 confidence
 uint32 robot_id
-float32 x
-float32 y
+Vector2f pos
 float32 orientation
-float32 pixel_x
-float32 pixel_y
+Vector2f pixel_pos
 float32 height
