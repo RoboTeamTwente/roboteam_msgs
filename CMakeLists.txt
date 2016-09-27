@@ -48,6 +48,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   Vector2f.msg
+  Vector3f.msg
   World.msg
   WorldBall.msg
   WorldRobot.msg

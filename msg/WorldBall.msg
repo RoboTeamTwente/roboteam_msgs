@@ -1,5 +1,3 @@
 uint32 area
-Vector2f pos
-float32 z
-Vector2f vel
-float32 z_vel
+Vector3f pos
+Vector3f vel
