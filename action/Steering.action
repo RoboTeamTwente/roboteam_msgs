@@ -7,6 +7,11 @@ float32 y
 float32 vel_x
 float32 vel_y
 float32 orientation
+bool dribbler
+bool kick_when_ball
+bool kick_forced
+bool chip_when_ball
+bool chip_forced
 Hint[]  hints
 ---
 #Result

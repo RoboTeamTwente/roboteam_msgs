@@ -4,5 +4,9 @@ float32 x_vel
 float32 y_vel
 float32 w_vel
 bool dribbler
-float32 kick_vel
-float32 chip_vel
+bool kicker
+bool kicker_forced
+float32 kicker_vel
+bool chipper
+bool chipper_forced
+float32 chipper_vel
