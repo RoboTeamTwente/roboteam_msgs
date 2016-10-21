@@ -63,6 +63,7 @@ add_message_files(
   GeometryFieldSize.msg
   GeometryCameraCalibration.msg
   RefboxCmd.msg
+  RoleDirective.msg
 )
 
 ## Generate services in the 'srv' folder
