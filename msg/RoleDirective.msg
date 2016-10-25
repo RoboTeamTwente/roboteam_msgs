@@ -1,5 +1,6 @@
-# ID of the role node (just its name)
-string role_id
+# name of the node that has to execute
+# the tree 
+string node_id
 
 # If true, role removes it's current tree
 # And starts spinning idly
