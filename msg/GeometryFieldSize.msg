@@ -4,4 +4,4 @@ float32 goal_width
 float32 goal_depth
 float32 boundary_width
 FieldLineSegment[] field_lines
-FieldCicularArc[] field_arcs
+FieldCircularArc[] field_arcs
