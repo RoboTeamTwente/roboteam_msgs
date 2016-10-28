@@ -52,7 +52,6 @@ add_message_files(
   WorldBall.msg
   WorldRobot.msg
   Hint.msg
-  Point.msg
   RobotCommand.msg
   DetectionBall.msg
   DetectionRobot.msg
