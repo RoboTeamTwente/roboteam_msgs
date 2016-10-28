@@ -61,8 +61,11 @@ add_message_files(
   GeometryData.msg
   GeometryFieldSize.msg
   GeometryCameraCalibration.msg
-  RefboxCmd.msg
   RoleDirective.msg
+  RefereeData.msg
+  RefereeCommand.msg
+  RefereeStage.msg
+  RefereeTeamInfo.msg
 )
 
 ## Generate services in the 'srv' folder
