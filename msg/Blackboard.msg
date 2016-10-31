@@ -1,4 +1,4 @@
-dict/BoolEntry[] bools
-dict/Float64Entry[] doubles
-dict/Int32Entry[] ints
-dict/StringEntry[] strings
+BoolEntry[] bools
+Float64Entry[] doubles
+Int32Entry[] ints
+StringEntry[] strings
