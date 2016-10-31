@@ -47,6 +47,10 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
+  dict/BoolEntry.msg
+  dict/Float64Entry.msg
+  dict/Int32Entry.msg
+  dict/StringEntry.msg
   Vector2f.msg
   World.msg
   WorldBall.msg
