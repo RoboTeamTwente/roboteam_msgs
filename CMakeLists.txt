@@ -68,6 +68,7 @@ add_message_files(
   GeometryFieldSize.msg
   GeometryCameraCalibration.msg
   RoleDirective.msg
+  RoleFeedback.msg
   RefereeData.msg
   RefereeCommand.msg
   RefereeStage.msg
