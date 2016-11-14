@@ -50,6 +50,7 @@ add_message_files(
   FILES
   Blackboard.msg
   BoolEntry.msg
+  DebugPoint.msg
   Float64Entry.msg
   Int32Entry.msg
   StringEntry.msg
