@@ -2,7 +2,7 @@
 string name
 
 # Set to true to have the line removed.
-bool delete
+bool remove
 
 # The points to draw the line between.
 Vector2f[] points
