@@ -6,3 +6,5 @@ bool remove
 
 # The points to draw the line between.
 Vector2f[] points
+
+Color color

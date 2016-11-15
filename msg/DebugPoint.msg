@@ -6,3 +6,5 @@ bool remove
 
 # The location of the point.
 Vector2f pos
+
+Color color
