@@ -1,6 +1,6 @@
 # name of the node that has to execute
 # the tree
-string node_id
+int32 robot_id
 uuid_msgs/UniqueID token
 
 # The name of the tree the node should use
