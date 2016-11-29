@@ -3,5 +3,26 @@ float32 field_width
 float32 goal_width
 float32 goal_depth
 float32 boundary_width
+
+# The field lines and arcs.
+# For easy addressing.
+FieldLineSegment top_line
+FieldLineSegment bottom_line
+FieldLineSegment left_line
+FieldLineSegment right_line
+FieldLineSegment half_line
+FieldLineSegment center_line
+FieldLineSegment left_penalty_line
+FieldLineSegment right_penalty_line
+
+FieldCircularArc top_left_penalty_arc
+FieldCircularArc bottom_left_penalty_arc
+FieldCircularArc top_right_penalty_arc
+FieldCircularArc bottom_right_penalty_arc
+FieldCircularArc center_circle
+
+
+# All the field lines and arcs again.
+# For easy iterating.
 FieldLineSegment[] field_lines
 FieldCircularArc[] field_arcs
