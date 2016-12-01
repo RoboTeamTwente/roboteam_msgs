@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(roboteam_msgs)
 
+# Needed for the documentation generator.
+set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
+
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
@@ -9,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   actionlib
   actionlib_msgs
   std_msgs
+  uuid_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -47,22 +51,36 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
+  Blackboard.msg
+  BoolEntry.msg
+  Color.msg
+  DebugLine.msg
+  DebugPoint.msg
+  Float64Entry.msg
+  Int32Entry.msg
+  StringEntry.msg
   Vector2f.msg
   World.msg
   WorldBall.msg
   WorldRobot.msg
   Hint.msg
-  Point.msg
   RobotCommand.msg
   DetectionBall.msg
   DetectionRobot.msg
   DetectionFrame.msg
-  FieldCicularArc.msg
+  FieldCircularArc.msg
   FieldLineSegment.msg
   GeometryData.msg
   GeometryFieldSize.msg
   GeometryCameraCalibration.msg
-  RefboxCmd.msg
+  RoleDirective.msg
+  RoleFeedback.msg
+  RefereeData.msg
+  RefereeCommand.msg
+  RefereeStage.msg
+  RefereeTeamInfo.msg
+  StrategyIgnoreRobot.msg
+  StrategyDebugDirective.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -82,6 +100,7 @@ generate_messages(
   DEPENDENCIES
   std_msgs
   actionlib_msgs
+  uuid_msgs
 )
 
 ################################################
