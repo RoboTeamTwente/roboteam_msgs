@@ -1,8 +1,8 @@
 int8 type
 
-int8 TYPE_STRATEGY
-int8 TYPE_ROLE
-int8 TYPE_LEAF
+int8 TYPE_STRATEGY = 0
+int8 TYPE_ROLE = 1
+int8 TYPE_LEAF = 2
 
 string name
 BtStatus status
