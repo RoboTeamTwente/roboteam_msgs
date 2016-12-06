@@ -53,6 +53,8 @@ add_message_files(
   FILES
   Blackboard.msg
   BoolEntry.msg
+  BtDebugInfo.msg
+  BtStatus.msg
   Color.msg
   DebugLine.msg
   DebugPoint.msg
