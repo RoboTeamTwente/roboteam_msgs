@@ -62,6 +62,7 @@ add_message_files(
   Int32Entry.msg
   StringEntry.msg
   Vector2f.msg
+  Vector3f.msg
   World.msg
   WorldBall.msg
   WorldRobot.msg
@@ -89,6 +90,7 @@ add_message_files(
 add_service_files(
   FILES
   navsim.srv
+  Tracker.srv
 )
 
 ## Generate actions in the 'action' folder
