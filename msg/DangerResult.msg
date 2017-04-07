@@ -1,0 +1,4 @@
+OptionalRobot charging
+OptionalRobot mostDangerous
+OptionalRobot secondMostDangerous
+WorldRobot[] robots
