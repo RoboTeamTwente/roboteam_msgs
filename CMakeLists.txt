@@ -76,6 +76,7 @@ add_message_files(
   GeometryData.msg
   GeometryFieldSize.msg
   GeometryCameraCalibration.msg
+  OptionalRobot.msg
   RoleDirective.msg
   RoleFeedback.msg
   RefereeData.msg
@@ -91,6 +92,7 @@ add_service_files(
   FILES
   navsim.srv
   Tracker.srv
+  DangerFinder.srv
 )
 
 ## Generate actions in the 'action' folder
