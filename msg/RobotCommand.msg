@@ -10,8 +10,8 @@ bool kicker_forced
 float32 kicker_vel
 
 # m/s
-float32 MAX_KICKER_VEL=8.0
-float32 MAX_CHIPPER_VEL=8.0
+float32 MAX_KICKER_VEL=8
+float32 MAX_CHIPPER_VEL=8
 
 bool chipper
 bool chipper_forced
