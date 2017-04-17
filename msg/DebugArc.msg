@@ -1,0 +1,9 @@
+string name
+bool remove
+Color color
+Vector2f center
+float32 ellipseWidth
+float32 ellipseHeight
+float32 startAngle
+float32 endAngle
+bool fill

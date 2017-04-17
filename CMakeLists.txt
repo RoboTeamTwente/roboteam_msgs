@@ -58,6 +58,7 @@ add_message_files(
   Color.msg
   DebugLine.msg
   DebugPoint.msg
+  DebugArc.msg
   Float64Entry.msg
   Int32Entry.msg
   StringEntry.msg
