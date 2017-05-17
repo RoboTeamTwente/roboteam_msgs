@@ -1,5 +1,5 @@
 int32 id
-time first_packet_sent
-time last_packet_sent
+time start_timeframe
+time end_timeframe
 int32 acks
 int32 nacks
