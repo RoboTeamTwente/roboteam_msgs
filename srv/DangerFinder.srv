@@ -1,7 +1,0 @@
-bool immediate
-bool mostDangerousOnly
----
-OptionalRobot charging
-OptionalRobot mostDangerous
-OptionalRobot secondMostDangerous
-WorldRobot[] robots

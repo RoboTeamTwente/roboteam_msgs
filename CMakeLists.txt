@@ -94,7 +94,6 @@ add_service_files(
   FILES
   navsim.srv
   Tracker.srv
-  DangerFinder.srv
 )
 
 ## Generate actions in the 'action' folder
