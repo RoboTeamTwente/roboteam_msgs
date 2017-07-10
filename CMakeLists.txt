@@ -87,6 +87,8 @@ add_message_files(
   RefereeTeamInfo.msg
   StrategyIgnoreRobot.msg
   StrategyDebugDirective.msg
+  PlayDebugInfo.msg
+  StrategyDebugInfo.msg
 )
 
 ## Generate services in the 'srv' folder

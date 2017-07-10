@@ -1,0 +1,3 @@
+string interpreted_ref_command
+string current_strategy
+PlayDebugInfo[] active_plays
