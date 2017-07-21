@@ -1,0 +1,11 @@
+uint32 id
+bool our_team
+string type
+---
+bool success
+# One of the following will be set:
+int64 long_val
+float64 double_val
+bool bool_val
+string string_val
+Vector3f vector_val

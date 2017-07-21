@@ -5,6 +5,7 @@ string name
 bool remove
 
 # The points to draw the line between.
-Vector2f[] points
+Vector2f start
+Vector2f stop
 
 Color color

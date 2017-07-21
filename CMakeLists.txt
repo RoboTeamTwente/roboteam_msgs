@@ -53,18 +53,23 @@ add_message_files(
   FILES
   Blackboard.msg
   BoolEntry.msg
+  BtDebugInfo.msg
+  BtStatus.msg
   Color.msg
   DebugLine.msg
   DebugPoint.msg
+  DebugArc.msg
   Float64Entry.msg
   Int32Entry.msg
   StringEntry.msg
   Vector2f.msg
+  Vector3f.msg
   World.msg
   WorldBall.msg
   WorldRobot.msg
   Hint.msg
   RobotCommand.msg
+  RobotSerialStatus.msg
   DetectionBall.msg
   DetectionRobot.msg
   DetectionFrame.msg
@@ -73,6 +78,7 @@ add_message_files(
   GeometryData.msg
   GeometryFieldSize.msg
   GeometryCameraCalibration.msg
+  OptionalRobot.msg
   RoleDirective.msg
   RoleFeedback.msg
   RefereeData.msg
@@ -81,12 +87,15 @@ add_message_files(
   RefereeTeamInfo.msg
   StrategyIgnoreRobot.msg
   StrategyDebugDirective.msg
+  PlayDebugInfo.msg
+  StrategyDebugInfo.msg
 )
 
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
   navsim.srv
+  Tracker.srv
 )
 
 ## Generate actions in the 'action' folder
