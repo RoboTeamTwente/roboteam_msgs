@@ -16,3 +16,6 @@ float32 MAX_CHIPPER_VEL=8
 bool chipper
 bool chipper_forced
 float32 chipper_vel
+
+# [-2,2]
+int32 geneva_state
