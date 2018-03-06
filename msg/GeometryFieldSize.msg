@@ -19,6 +19,12 @@ FieldCircularArc top_left_penalty_arc
 FieldCircularArc bottom_left_penalty_arc
 FieldCircularArc top_right_penalty_arc
 FieldCircularArc bottom_right_penalty_arc
+
+FieldLineSegment top_left_penalty_stretch
+FieldLineSegment bottom_left_penalty_stretch
+FieldLineSegment top_right_penalty_stretch
+FieldLineSegment bottom_right_penalty_stretch
+
 FieldCircularArc center_circle
 
 
