@@ -69,6 +69,7 @@ add_message_files(
   WorldRobot.msg
   Hint.msg
   RobotCommand.msg
+  RobotFeedback.msg
   RobotSerialStatus.msg
   DetectionBall.msg
   DetectionRobot.msg
