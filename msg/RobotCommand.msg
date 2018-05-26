@@ -3,6 +3,7 @@ bool active
 float32 x_vel
 float32 y_vel
 float32 w
+bool use_angle
 bool dribbler
 
 bool kicker
@@ -17,5 +18,5 @@ bool chipper
 bool chipper_forced
 float32 chipper_vel
 
-# [-2,2]
+# [1,5]
 int32 geneva_state
