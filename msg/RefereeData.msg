@@ -27,4 +27,11 @@ RefereeTeamInfo them
 
 Vector2f designated_position
 
+# Information about the direction of play.
+# True, if the blue team will have it's goal on the positive x-axis of the ssl-vision coordinate system
+# Obviously, the yellow team will play on the opposide half
+# For compatibility, this field is optional
 bool blueTeamOnPositiveHalf
+
+# The game event that caused the referee command
+GameEvent gameEvent

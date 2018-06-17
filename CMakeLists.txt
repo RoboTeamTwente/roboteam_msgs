@@ -82,10 +82,15 @@ add_message_files(
   OptionalRobot.msg
   RoleDirective.msg
   RoleFeedback.msg
+
+  GameEventOriginator.msg
+  GameEvent.msg
   RefereeData.msg
   RefereeCommand.msg
   RefereeStage.msg
   RefereeTeamInfo.msg
+
+
   StrategyIgnoreRobot.msg
   StrategyDebugDirective.msg
   PlayDebugInfo.msg
