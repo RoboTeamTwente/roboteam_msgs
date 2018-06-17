@@ -25,5 +25,6 @@ uint64 command_timestamp
 RefereeTeamInfo us
 RefereeTeamInfo them
 
-
 Vector2f designated_position
+
+bool blueTeamOnPositiveHalf
