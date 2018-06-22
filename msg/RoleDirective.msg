@@ -6,8 +6,6 @@ uuid_msgs/UniqueID token
 
 # The name of the tree the node should use
 # These constants are allowed as well
-string IGNORE_STRATEGY_INSTRUCTIONS=ignore strategy instructions
-string STOP_IGNORING_STRATEGY_INSTRUCTIONS=stop ignoring strategy instructions
 string STOP_EXECUTING_TREE=stop executing tree
 string tree
 
