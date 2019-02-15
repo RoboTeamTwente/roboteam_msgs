@@ -95,6 +95,7 @@ add_message_files(
   StrategyDebugDirective.msg
   PlayDebugInfo.msg
   StrategyDebugInfo.msg
+  DemoRobot.msg
 )
 
 ## Generate services in the 'srv' folder
