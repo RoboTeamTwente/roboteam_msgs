@@ -83,6 +83,7 @@ add_message_files(
   RoleDirective.msg
   RoleFeedback.msg
 
+
   GameEventOriginator.msg
   GameEvent.msg
   RefereeData.msg
@@ -96,6 +97,8 @@ add_message_files(
   PlayDebugInfo.msg
   StrategyDebugInfo.msg
   DemoRobot.msg
+  StatusPair.msg
+  TreeStatus.msg
 )
 
 ## Generate services in the 'srv' folder

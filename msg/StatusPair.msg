@@ -1,0 +1,2 @@
+string node_id
+string node_status
