@@ -4,7 +4,7 @@ float32 x_vel
 float32 y_vel
 float32 w
 bool use_angle
-bool dribbler
+int32 dribbler
 
 bool kicker
 bool kicker_forced
