@@ -5,6 +5,7 @@ bool batteryLow
 bool hasBall
 float32 ballPos
 bool genevaIsWorking
+bool genevaIsTurning
 int32 genevaState
 float32 rho
 float32 angle
