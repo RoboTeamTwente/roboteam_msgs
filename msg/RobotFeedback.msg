@@ -7,8 +7,8 @@ float32 ballPos
 bool genevaIsWorking
 bool genevaIsTurning
 int32 genevaState
-float32 rho
-float32 angle
-float32 theta
+float32 x_vel
+float32 yaw
+float32 y_vel
 bool hasLockedWheel
 float32 signalStrength
